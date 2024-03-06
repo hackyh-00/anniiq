@@ -31,7 +31,7 @@ function sendNextVideo(res) {
     });
 }
 
-app.get('/kshitiz', (req, res) => {
+app.get('/haker', (req, res) => {
     if (allVideos.length === 0) {
         fs.readdir(path.join('.', 'videos'), (err, files) => {
             if (err) {
